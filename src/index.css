@@ -68,7 +68,14 @@ button {
 .container {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 0 clamp(2rem, 8vw, 6rem);
+  padding: 0 clamp(2rem, 5vw, 4rem);
+}
+
+@media (min-width: 1200px) {
+  .container {
+    padding: 0 4rem;
+    /* Forces minimum padding even on very wide/100% screens */
+  }
 }
 
 .text-gradient {
