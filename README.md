@@ -1,6 +1,7 @@
 # Devansh Joshi | Machine Learning Engineer Portfolio
 
-![Portfolio Preview](./portfolio-preview.jpg) <!-- Optional: Add a screenshot here later -->
+<img width="1444" height="869" alt="image" src="https://github.com/user-attachments/assets/749ef36d-6cd8-4e7a-9126-ab201d107cf3" />
+
 
 A modern, responsive, and highly interactive portfolio website designed to showcase my skills, projects, and passion for Machine Learning, Data Analytics, and Software Engineering. Built with a futuristic aesthetic tailored for a Machine Learning Engineer.
 
