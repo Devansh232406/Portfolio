@@ -32,24 +32,26 @@ const About = () => {
 
             <div className="about-content">
                 <motion.div
-                    className="about-text"
+                    className="about-text-container"
                     variants={containerVariants}
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.2 }}
                 >
-                    <motion.p variants={itemVariants}>
-                        I am a Machine Learning enthusiast and problem solver with a strong foundation in classical ML and data structures. My primary programming language is <strong>C++</strong>, which I use extensively for algorithmic problem solving and competitive coding.
-                    </motion.p>
-                    <motion.p variants={itemVariants}>
-                        I work with <strong>Python</strong> and <strong>Scikit-learn</strong> to build and evaluate machine learning models, focusing on clean data pipelines, feature scaling, and structured experimentation. My experience includes implementing algorithms such as KNN, Decision Trees, Random Forest, Naive Bayes, and Regression models.
-                    </motion.p>
-                    <motion.p variants={itemVariants}>
-                        On the development side, I build interactive web applications using <strong>React</strong> and manage version control workflows with Git and GitHub. I have collaborated in hackathon environments, structured repositories efficiently, and handled real-world integration scenarios.
-                    </motion.p>
-                    <motion.p variants={itemVariants}>
-                        I am actively preparing for product-based company placements while deepening my understanding of machine learning systems and scalable software design.
-                    </motion.p>
+                    <motion.div className="about-text-inner" variants={itemVariants}>
+                        <p>
+                            I am a Machine Learning enthusiast and problem solver with a strong foundation in classical ML and data structures. My primary programming language is <strong>C++</strong>, which I use extensively for algorithmic problem solving and competitive coding.
+                        </p>
+                        <p>
+                            I work with <strong>Python</strong> and <strong>Scikit-learn</strong> to build and evaluate machine learning models, focusing on clean data pipelines, feature scaling, and structured experimentation. My experience includes implementing algorithms such as KNN, Decision Trees, Random Forest, Naive Bayes, and Regression models.
+                        </p>
+                        <p>
+                            On the development side, I build interactive web applications using <strong>React</strong> and manage version control workflows with Git and GitHub. I have collaborated in hackathon environments, structured repositories efficiently, and handled real-world integration scenarios.
+                        </p>
+                        <p>
+                            I am actively preparing for product-based company placements while deepening my understanding of machine learning systems and scalable software design.
+                        </p>
+                    </motion.div>
                 </motion.div>
 
                 <motion.div
